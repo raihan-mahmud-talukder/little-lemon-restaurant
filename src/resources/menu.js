@@ -13,7 +13,7 @@ export const menus = [
         img: 'images/bruchetta.webp',
         price: 16,
         trending: true,
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsa. Architecto, exercitationem.'
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, exercitationem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ipsa.'
     },
     {
         id: 3,
