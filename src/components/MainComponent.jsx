@@ -7,8 +7,6 @@ export const MainComponent = () => {
     return (
         <>
             <Header />
-            <Special />
-            <Testimonial />
             <Footer />
         </>
     )
