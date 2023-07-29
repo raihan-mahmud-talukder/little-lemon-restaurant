@@ -1,0 +1,30 @@
+.header {
+    background: #322d2d;
+    /* height: 50rem; */
+    margin-top: 3rem;
+    padding: 3rem 5rem;
+    color: white;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+}
+
+aside {
+    border: 1px white solid;
+    padding: 2rem;
+    width: 50%;
+}
+
+.image {
+    width: 35rem;
+    background: white;
+    border-radius: 12px;
+}
+
+.image img {
+    height: 25rem;
+    width: 94%;
+    margin: 1rem;
+    object-fit: cover;
+    border-radius: 12px;
+}
