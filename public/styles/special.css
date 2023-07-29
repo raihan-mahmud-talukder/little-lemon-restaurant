@@ -29,12 +29,12 @@ article {
     padding: 1rem;
 }
 
-.text {
+.title .text {
     font-size: 1.5rem;
     font-weight: bolder;
 }
 
-.price {
+.title .price {
     font-size: 1.25rem;
     font-weight: bold;
     color: chocolate;
