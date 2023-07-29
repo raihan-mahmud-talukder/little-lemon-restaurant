@@ -9,7 +9,7 @@
 }
 
 aside {
-    padding: 2rem;
+    padding: 2rem 0;
     width: 50%;
 }
 
@@ -40,7 +40,7 @@ aside button {
 }
 
 .image {
-    width: 35rem;
+    width: 40rem;
     background: white;
     border-radius: 12px;
 }
