@@ -37,6 +37,10 @@ aside button {
     width: 15rem;
     height: 3rem;
     border-radius: 15px;
+}
+
+aside button a {
+    text-decoration: none;
     color: green;
 }
 
