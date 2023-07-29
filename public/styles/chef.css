@@ -1,0 +1,22 @@
+.chef {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+margin: 5rem auto;
+}
+
+.chef h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.chef p {
+    text-align: justify;
+}
+
+.chef img {
+    width: 60rem;
+    padding: 2rem;
+    margin: 0 auto;
+}

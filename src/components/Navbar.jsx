@@ -3,6 +3,7 @@ import { About } from "./About"
 import { Menu } from "./Menu"
 import { Reservation } from "./Reservation"
 import { Home } from "./Home"
+import { Chef } from "./Chef"
 
 export const Navbar = () => {
     return (
@@ -20,9 +21,7 @@ export const Navbar = () => {
                         <li><NavLink to='/about' className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink></li>
                         <li><NavLink to='/menu' className={({ isActive }) => (isActive ? 'active' : '')}>Menu</NavLink></li>
                         <li><NavLink to='/reserve' className={({ isActive }) => (isActive ? 'active' : '')}>Reserve</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink></li>
-                        <li><NavLink to='/' className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink></li>
+                        <li><NavLink to='/chef' className={({ isActive }) => (isActive ? 'active' : '')}>Chef</NavLink></li>
                     </ul>
                 </menu>
             </header>
@@ -31,6 +30,7 @@ export const Navbar = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/menu" element={<Menu />} />
                 <Route path="/reserve" element={<Reservation />} />
+                <Route path="/chef" element={<Chef />} />
             </Routes>
         </>
     )
