@@ -1,12 +1,10 @@
 import { Footer } from "./Footer"
-import { Header } from "./Header"
-import { Special } from "./Special"
-import { Testimonial } from "./Testimonial"
+import { Navbar } from './Navbar'
 
 export const MainComponent = () => {
     return (
         <>
-            <Header />
+            <Navbar />
             <Footer />
         </>
     )

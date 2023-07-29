@@ -1,11 +1,12 @@
 .header {
     background: #322d2d;
-    margin-top: 3rem;
-    padding: 3rem 5rem;
+    margin-top: 5rem;
+    padding: 5rem;
     color: white;
     display: flex;
     gap: 5rem;
     justify-content: space-around;
+    align-items: center;
 }
 
 aside {
