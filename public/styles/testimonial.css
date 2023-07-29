@@ -1,0 +1,47 @@
+.testimonial {
+    /* background: #322d2d; */
+    padding: 2rem 4rem;
+}
+
+.testimonial h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.review {
+    border: 1px black solid;
+    width: 20rem;
+    padding: 1rem;
+    background: #322d2d;
+    color: white;
+    border-radius: 10px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.review h3,
+.review h4,
+.review p,
+.review span {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.review h4 {
+    color: yellow;
+}
+
+.review img {
+    width: 8rem;
+    border-radius: 10px;
+}
