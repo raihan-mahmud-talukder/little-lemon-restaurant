@@ -1,3 +1,9 @@
+import { MainComponent } from "./components/MainComponents"
+
 export const App = () => {
-  return 'Little Lemon Restaurant'
+  return (
+    <>
+      <MainComponent />
+    </>
+  )
 }
