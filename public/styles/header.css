@@ -27,6 +27,7 @@ aside h3 {
 aside p {
     padding: 3rem 0;
     margin: 0;
+    text-align: justify;
 }
 
 aside button {

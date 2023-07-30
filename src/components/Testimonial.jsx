@@ -15,7 +15,7 @@ const Reviews = ({ item }) => {
     return (
         <div className="review">
             <div className="rating">
-                <img src={item.img} />
+                <img src={item.img} alt={item.title} />
                 <div>
                     <h3>{item.name}</h3>
                     <h4>{item.prof}</h4>

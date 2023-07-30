@@ -18,7 +18,7 @@ export const reviews = [
     {
         id: 3,
         img: 'https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-4.jpg',
-        name: 'Rudro Shodullah',
+        name: 'Rudro Shohidullah',
         prof: 'Cricker',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, exercitationem.',
         rating: 5
