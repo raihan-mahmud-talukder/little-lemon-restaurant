@@ -1,6 +1,7 @@
 import { menus } from "../resources/menu"
 
 export const Menu = () => {
+    document.title = 'Menu'
     return (
         <div className="menu">
             <h1>Our Menu</h1>

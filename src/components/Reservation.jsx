@@ -1,4 +1,5 @@
 export const Reservation = () => {
+    document.title = 'Reservation'
     return (
         <div className="reserve">
             <div className="text">

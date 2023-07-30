@@ -1,4 +1,5 @@
 export const Chef = () => {
+    document.title = 'Chef'
     return (
         <div className="chef">
             <h1>Our Chef</h1>

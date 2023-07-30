@@ -10,7 +10,7 @@ export const Navbar = () => {
         <>
             <header>
                 <nav>
-                    <img src="images/logo.png" alt="little lemon restaurant" />
+                    <a href="/"><img src="images/logo.png" alt="little lemon restaurant" /></a>
                 </nav>
                 <label className='menu-button-container' htmlFor="menu-toggle">
                     <div className='menu-button'></div>
